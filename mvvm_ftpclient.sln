@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvvm_ftpclient", "mvvm_ftpclient.csproj", "{8A427637-F8D1-4B34-B6EB-4E6731296178}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A427637-F8D1-4B34-B6EB-4E6731296178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A427637-F8D1-4B34-B6EB-4E6731296178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A427637-F8D1-4B34-B6EB-4E6731296178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A427637-F8D1-4B34-B6EB-4E6731296178}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA9C736B-A231-4E02-A9A8-9B2087C71DFB}
+	EndGlobalSection
+EndGlobal

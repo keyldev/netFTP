@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="mvvm_ftpclient.UserControls.FileViewTemplate"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:mvvm_ftpclient.UserControls"
+              mc:Ignorable="d" Height="74" Width="612">
+    <Border BorderThickness="0" Background="White"
+            CornerRadius="7" Margin="0,0,0,1">
+        <Border.Effect>
+            <DropShadowEffect Direction="315"/>
+        </Border.Effect>
+        <Grid>
+            <Image HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="52" Margin="10,10,0,0" Source="/mvvm_ftpclient;component/Assets/FilesIcons/txt.png"/>
+            <Label Content="a.drawio" HorizontalAlignment="Left" Margin="67,10,0,0" VerticalAlignment="Top" Width="535"/>
+            <Label Content="1 Kb" HorizontalAlignment="Left" Margin="445,37,0,0" VerticalAlignment="Top" Width="157" HorizontalContentAlignment="Right"/>
+        </Grid>
+    </Border>
+</UserControl>
